@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-container">
+        <h1>Todo List</h1>
+
+        <!-- Input sections -->
+        <div class="input-section">
+          <input
+            type="text"
+            name="tasks"
+            id="task-input"
+            placeholder="Add a new task..."
+          />
+          <button id="addTodoBtn">+</button>
+        </div>
+
+        <!-- Display sections -->
+        <ul id="todoList"></ul>
+        <div id="empty-state" class="empty-state">
+                    <p>Your todo list is empty. Add some tasks to get started!</p>
+                </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
